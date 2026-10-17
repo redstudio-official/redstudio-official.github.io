@@ -119,7 +119,7 @@
 
         /* Блоки с контентом */
         .content-section {
-            display: none; /* Скрыты по умолчанию, переключаются через JS */
+            display: none;
         }
 
         .content-section.active {
@@ -181,7 +181,7 @@
             margin-bottom: 0;
         }
 
-        /* Стилизация кнопки действий */
+        /* Стилизация контейнера и кнопки */
         .action-container {
             text-align: center;
             margin-top: 30px;
@@ -233,7 +233,7 @@
             <p class="tagline" id="tagline-text">Начинающая независимая IT-студия</p>
         </div>
 
-        <!-- КАНАЛ RU -->
+        <!-- СЕКЦИЯ RU -->
         <div id="lang-ru" class="content-section active">
             <p class="intro-text">Привет! Мы — начинающая независимая ИТ-студия RedStudio. Изучаем технологии, пишем код и создаем интересные пет-проекты. Рады фидбеку и открыты для совместных экспериментов!</p>
             
@@ -263,7 +263,7 @@
             </div>
         </div>
 
-        <!-- КАНАЛ EN -->
+        <!-- СЕКЦИЯ EN -->
         <div id="lang-en" class="content-section">
             <p class="intro-text">Hi there! We are RedStudio — an emerging indie developer studio. We love exploring tech, writing clean code, and building cool open-source projects. Feel free to open issues and collaborate with us!</p>
             
@@ -293,7 +293,7 @@
             </div>
         </div>
 
-        <!-- КАНАЛ UA -->
+        <!-- СЕКЦИЯ UA -->
         <div id="lang-ua" class="content-section">
             <p class="intro-text">Привіт! Ми — ІТ-студія RedStudio, що тільки починає свій шлях. Вивчаємо технології, пишемо код та створюємо цікаві проєкти. Будемо раді вашим зіркам та співавторству!</p>
             
@@ -318,6 +318,14 @@
                 <div class="info-title">Графік (за Києвом)</div>
                 <ul class="info-list">
                     <li>Пн–Пт: 12:00 – 15:00</li>
+                    <li>Сб–Нд: 07:00 – 17:00 / 18:00</li>
+                </ul>
+            </div>
+        <div class="action-container">
+            <a href="https://github.com" target="_blank" class="btn-win12">GO TO THE WINDOWS 12 SITE</a>
+        </div>
+    </div>
+
     <script>
         const taglines = {
             ru: "Начинающая независимая IT-студия",
